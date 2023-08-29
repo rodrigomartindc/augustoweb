@@ -146,7 +146,7 @@ var INSPIRO = {},
                     $("body,html").stop(true).animate({
                             scrollTop: 0,
                         },
-                        1000,
+                        300,
                         "easeInOutExpo"
                     );
                     return false;
