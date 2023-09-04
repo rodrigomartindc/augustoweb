@@ -6,3 +6,10 @@
  <link href="css/custom.css" rel="stylesheet">
 
 */
+
+.wappfloat {
+      position: fixed;
+      bottom: 1.5em;
+      right: -20px;
+      z-index: 9;
+}
