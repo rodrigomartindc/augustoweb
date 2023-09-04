@@ -9,12 +9,12 @@
 
 .wappfloat {
       position: fixed;
-      bottom: 1.75em;
-      right: 7%;
+      bottom: 1.20em;
+      right: 2%;
       z-index: 9;
       text-align: center;
-      background-color: #25D366;
-      width: 6em;
-      height: 3em;
-      border-radius: 25%;
+}
+
+.wappfloat img {
+      width: 4em;
 }
