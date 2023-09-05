@@ -10,11 +10,17 @@
 .wappfloat {
       position: fixed;
       bottom: 1.20em;
-      right: 2%;
+      right: 0;
       z-index: 9;
       text-align: center;
 }
 
 .wappfloat img {
       width: 4em;
+}
+
+@media screen and (max-width: 991px) {
+.wappfloat {
+      right: 5%;
+}
 }
