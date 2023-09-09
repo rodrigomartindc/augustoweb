@@ -323,7 +323,7 @@ var INSPIRO = {},
                 shrinkHeader = 300;
             }
 
-            $(window).breakpoints("greaterEqualTo", "lg", function() {
+            $(window).breakpoints("greaterEqualTo", "xs", function() {
                 if (!$header.is(".header-disable-fixed")) {
                     if (scrollOnTop > $headerOffsetTop + shrinkHeader) {
                         $header.addClass("header-sticky");

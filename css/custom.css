@@ -8,19 +8,54 @@
 */
 
 .wappfloat {
-      position: fixed;
-      bottom: 1.20em;
-      right: 0;
-      z-index: 9;
-      text-align: center;
+  position: fixed;
+  bottom: 1.2em;
+  right: 0;
+  z-index: 9;
+  text-align: center;
 }
 
 .wappfloat img {
-      width: 4em;
+  width: 4em;
+}
+
+.maptextareadiv {
+  max-width: 41vw;
+  background-color: rgba(245, 245, 245, 0.9);
+  position: absolute;
+  top: 20%;
+  right: 2%;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: "Poppins";
+}
+
+.maptextareadiv span {
+  font-size: 12px;
+}
+
+.maptextareadiv p {
+  font-size: 12px;
+}
+
+.maptextareadiv li {
+  list-style: none;
 }
 
 @media screen and (max-width: 991px) {
-.wappfloat {
-      right: 9%;
-}
+  #faq .container {
+    padding: 0 5px;
+  }
+
+  .wappfloat {
+    right: 17%;
+  }
+
+  .maptextareadiv {
+    max-width: 80vw;
+    bottom: 0px;
+    top: auto;
+    right: auto;
+    left: 0;
+  }
 }
