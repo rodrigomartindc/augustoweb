@@ -42,6 +42,27 @@
   list-style: none;
 }
 
+.testimonial .testimonial-item > span ~ span {
+  font-weight: 600;
+  color: #1e2022;
+  display: block;
+  font-size: 1.2em;
+  font-style: normal;
+}
+
+.testimonial .testimonial-item {
+  border: 1px solid #f5f5f5;
+  background-color: #fff;
+  padding: 46px;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#rateit-range-5 > div {
+  margin: auto;
+}
+
 #contacto > div > div > div:nth-child(1) > div > div:nth-child(3) > div > ul > li.social-rss > a:hover{
       background-color: yellowgreen;
 }
